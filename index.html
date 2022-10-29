@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JQF1NJQ92M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JQF1NJQ92M');
+</script>
+
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -361,12 +373,20 @@
         <h2 class="section__title">Recent Projects And Certificates</h2>
         <div class="work__filters">
           <span class="work__item active__work" data-filter = 'all'>All</span>
-          <span class="work__item"data-filter ='.web'>Web</span>
-          <span class="work__item" data-filter = '.android'>Android</span>
+          <span class="work__item"data-filter ='.android'>Android</span>
           <span class="work__item" data-filter = '.internships'>Internships</span>
+          <span class="work__item" data-filter = '.web'>Web</span>
         </div>
 
         <div class="work_container container grid">
+
+           <div class="work__card mix internships">
+            <img src="assets/img/internship_3.png" alt="" class="work__img">
+            <h3 class="work__title">Sparks Foundation</h3>
+            <a href="assets/pdf/sparks.jpeg" class="work__button">
+               View Internship Certificate <i class='bx bx-right-arrow-alt work_icon'></i>
+            </a>
+          </div> 
 
           <div class="work__card mix web">
             <img src="assets/img/try_1.jpg" alt="" class="work__img">
@@ -388,6 +408,18 @@
             </a>
           </div>
 
+          <div class="work__card mix web">
+              <img src="assets/img/try_5.png" alt="" class="work__img">
+              <h3 class="work__title">Amazon Clone using React</h3>
+            
+              <a href="https://project-5506b.web.app" class="work__button">
+                View Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+              </a>
+              <a href="https://github.com/navya1424/amazon-clone" class="work__button">
+                Open on github <i class='bx bx-right-arrow-alt work_icon'></i>
+              </a>
+          </div>
+          
           <div class="work__card mix android">
             <img src="assets/img/try__4.jpg" alt="" class="work__img">
             <h3 class="work__title">Codefreakz Android Application</h3>
@@ -426,25 +458,8 @@
             </a>
           </div>
 
-          <div class="work__card mix internships">
-            <img src="assets/img/internship_3.png" alt="" class="work__img">
-            <h3 class="work__title">Sparks Foundation</h3>
-            <a href="assets/pdf/sparks.jpeg" class="work__button">
-               View Internship Certificate <i class='bx bx-right-arrow-alt work_icon'></i>
-            </a>
-          </div>
+         
 
-          <div class="work__card mix web">
-            <img src="assets/img/try_5.png" alt="" class="work__img">
-            <h3 class="work__title">Amazon Clone using React</h3>
-           
-            <a href="https://project-5506b.web.app" class="work__button">
-              View Demo <i class='bx bx-right-arrow-alt work_icon'></i>
-            </a>
-            <a href="https://github.com/navya1424/amazon-clone" class="work__button">
-              Open on github <i class='bx bx-right-arrow-alt work_icon'></i>
-            </a>
-          </div>
         </div>
       </section>
 
